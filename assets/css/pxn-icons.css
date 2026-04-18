@@ -1,0 +1,299 @@
+@font-face {
+	font-family: "pxn-icon";
+	src: url("../fonts/pxn-icon.eot@mk6jw0");
+	src:
+		url("../fonts/pxn-icon.eot@mk6jw0") format("embedded-opentype"),
+		url("../fonts/pxn-icon.ttf@mk6jw0") format("truetype"),
+		url("../fonts/pxn-icon.woff@mk6jw0") format("woff"),
+		url("../fonts/pxn-icon.svg@mk6jw0") format("svg");
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+}
+
+[class^="pxni-"],
+[class*=" pxni-"] {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: "pxn-icon" !important;
+	speak: never;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.pxni-reply:before {
+	content: "\e958";
+}
+.pxni-file:before {
+	content: "\e959";
+}
+.pxni-star-circle:before {
+	content: "\e957";
+}
+.pxni-quote-right-outline:before {
+	content: "\e94c";
+}
+.pxni-quote-left-outline:before {
+	content: "\e94d";
+}
+.pxni-map-pin:before {
+	content: "\e94e";
+}
+.pxni-magnifying-glass:before {
+	content: "\e94f";
+}
+.pxni-envelope-2:before {
+	content: "\e950";
+}
+.pxni-checked:before {
+	content: "\e951";
+}
+.pxni-checked-circle-2:before {
+	content: "\e952";
+}
+.pxni-arrow-right-2:before {
+	content: "\e953";
+}
+.pxni-arrow-left-2:before {
+	content: "\e954";
+}
+.pxni-angle-right:before {
+	content: "\e955";
+}
+.pxni-angle-left:before {
+	content: "\e956";
+}
+.pxni-planning:before {
+	content: "\e945";
+}
+.pxni-plus:before {
+	content: "\e935";
+}
+.pxni-progress:before {
+	content: "\e936";
+}
+.pxni-quote-left:before {
+	content: "\e942";
+}
+.pxni-quote-right:before {
+	content: "\e943";
+}
+.pxni-share:before {
+	content: "\e944";
+}
+.pxni-strategy:before {
+	content: "\e946";
+}
+.pxni-decisions:before {
+	content: "\e947";
+}
+.pxni-expansion:before {
+	content: "\e948";
+}
+.pxni-minus:before {
+	content: "\e949";
+}
+.pxni-phone:before {
+	content: "\e94a";
+}
+.pxni-play:before {
+	content: "\e94b";
+}
+.pxni-close:before {
+	content: "\e940";
+}
+.pxni-menu:before {
+	content: "\e941";
+}
+.pxni-execution:before {
+	content: "\e929";
+}
+.pxni-award:before {
+	content: "\e92a";
+}
+.pxni-check:before {
+	content: "\e92b";
+}
+.pxni-checked-circle:before {
+	content: "\e92c";
+}
+.pxni-comments:before {
+	content: "\e92d";
+}
+.pxni-double-arrow-left:before {
+	content: "\e92e";
+}
+.pxni-double-arrow-right:before {
+	content: "\e92f";
+}
+.pxni-dribbble-line:before {
+	content: "\e930";
+}
+.pxni-facebook-line:before {
+	content: "\e931";
+}
+.pxni-instagram-line:before {
+	content: "\e932";
+}
+.pxni-linkedin-line:before {
+	content: "\e933";
+}
+.pxni-pinterest-line:before {
+	content: "\e934";
+}
+.pxni-send:before {
+	content: "\e937";
+}
+.pxni-snapchat-line:before {
+	content: "\e938";
+}
+.pxni-spotify-line:before {
+	content: "\e939";
+}
+.pxni-twitter-line:before {
+	content: "\e93a";
+}
+.pxni-vimeo-line:before {
+	content: "\e93b";
+}
+.pxni-youtube-line:before {
+	content: "\e93c";
+}
+.pxni-author:before {
+	content: "\e93d";
+}
+.pxni-behance-line:before {
+	content: "\e93e";
+}
+.pxni-calendar:before {
+	content: "\e93f";
+}
+.pxni-solutions:before {
+	content: "\e900";
+}
+.pxni-spotify:before {
+	content: "\e901";
+}
+.pxni-star:before {
+	content: "\e902";
+}
+.pxni-success:before {
+	content: "\e903";
+}
+.pxni-telegram:before {
+	content: "\e904";
+}
+.pxni-threads:before {
+	content: "\e905";
+}
+.pxni-tiktok:before {
+	content: "\e906";
+}
+.pxni-transformation:before {
+	content: "\e907";
+}
+.pxni-tumblr:before {
+	content: "\e908";
+}
+.pxni-twitch:before {
+	content: "\e909";
+}
+.pxni-vimeo:before {
+	content: "\e90a";
+}
+.pxni-whatsapp:before {
+	content: "\e90b";
+}
+.pxni-wining-time:before {
+	content: "\e90c";
+}
+.pxni-x-twitter:before {
+	content: "\e90d";
+}
+.pxni-youtube:before {
+	content: "\e90e";
+}
+.pxni-angle-down:before {
+	content: "\e90f";
+}
+.pxni-angle-up:before {
+	content: "\e910";
+}
+.pxni-apple:before {
+	content: "\e911";
+}
+.pxni-approach:before {
+	content: "\e912";
+}
+.pxni-arrow-left:before {
+	content: "\e913";
+}
+.pxni-arrow-right:before {
+	content: "\e914";
+}
+.pxni-bluesky:before {
+	content: "\e915";
+}
+.pxni-clock:before {
+	content: "\e916";
+}
+.pxni-compliance:before {
+	content: "\e917";
+}
+.pxni-consultants:before {
+	content: "\e918";
+}
+.pxni-discord:before {
+	content: "\e919";
+}
+.pxni-dribble:before {
+	content: "\e91a";
+}
+.pxni-envelope:before {
+	content: "\e91b";
+}
+.pxni-facebook:before {
+	content: "\e91c";
+}
+.pxni-github:before {
+	content: "\e91d";
+}
+.pxni-globe:before {
+	content: "\e91e";
+}
+.pxni-google:before {
+	content: "\e91f";
+}
+.pxni-growth:before {
+	content: "\e920";
+}
+.pxni-instagram:before {
+	content: "\e921";
+}
+.pxni-linkedin:before {
+	content: "\e922";
+}
+.pxni-messenger:before {
+	content: "\e923";
+}
+.pxni-pin:before {
+	content: "\e924";
+}
+.pxni-pinterest:before {
+	content: "\e925";
+}
+.pxni-search:before {
+	content: "\e926";
+}
+.pxni-shield-check:before {
+	content: "\e927";
+}
+.pxni-signal:before {
+	content: "\e928";
+}
