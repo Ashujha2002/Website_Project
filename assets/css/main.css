@@ -1569,6 +1569,12 @@ START: Theme Header CSS
       -ms-flex-pack: justify;
           justify-content: space-between;
   gap: 25px;
+  flex-wrap: nowrap;
+}
+@media (max-width: 575px) {
+  .pxn_header_main_wrap {
+    gap: 10px;
+  }
 }
 .pxn_site_logo {
   display: -webkit-inline-box;
@@ -1576,10 +1582,21 @@ START: Theme Header CSS
   display: inline-flex;
   max-width: 300px;
   width: 100%;
+  flex-shrink: 1;
+}
+@media (max-width: 575px) {
+  .pxn_site_logo {
+    max-width: 140px;
+  }
 }
 .pxn_site_logo img {
   width: auto;
   max-height: 55px;
+}
+@media (max-width: 575px) {
+  .pxn_site_logo img {
+    max-height: 40px;
+  }
 }
 .footer_logo {
   display: -webkit-inline-box;
@@ -1987,6 +2004,8 @@ START: Theme Header CSS
   font-size: 16px;
   line-height: 1.2;
   color: var(--pxn-color-common-white);
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 .pxn_offcanvas_toggle .icon {
   display: -webkit-inline-box;
